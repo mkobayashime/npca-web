@@ -1,14 +1,21 @@
 image: node:latest
+
+variables:
+  NODE_ENV: production
+
+before_script:
+  - yarn
+
+cache:
+  paths:
+    - node_modules/
+
 pages:
   stage: deploy
-    only:
-      - master
-    before_script:
-      - 'yarn config set cache-folder .yarn'
-      - 'yarn install'
-    script:
-      - 'yarn generate'
-      - 'cp -pr dist public'
-    artifacts:
-      paths:
-        - public
+  script:
+    - yarn generate
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
