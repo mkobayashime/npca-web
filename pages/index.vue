@@ -3,7 +3,7 @@
     header
       .header-inner
         .header-logo-container
-          img(src="/logotype-jp.svg" height="30px")
+          img(src="/npca-web/logotype-jp.svg" height="30px")
         ul.nav
           li
             a(href="#") Activities
@@ -160,11 +160,11 @@ header
     background-size cover
     background-blend-mode color
 .image0
-  background-image linear-gradient(to right top, #0f42c2, #0077e9, #009edf, #00beb3, #1ed87f), url(/img/top-0.jpg)
+  background-image linear-gradient(to right top, #0f42c2, #0077e9, #009edf, #00beb3, #1ed87f), url(/npca-web/img/top-0.jpg)
 .image1
-  background-image linear-gradient(to right top, #0f42c2, #0077e9, #009edf, #00beb3, #1ed87f), url(/img/top-1.jpg)
+  background-image linear-gradient(to right top, #0f42c2, #0077e9, #009edf, #00beb3, #1ed87f), url(/npca-web/img/top-1.jpg)
 .image2
-  background-image linear-gradient(to right top, #0f42c2, #0077e9, #009edf, #00beb3, #1ed87f), url(/img/top-2.jpg)
+  background-image linear-gradient(to right top, #0f42c2, #0077e9, #009edf, #00beb3, #1ed87f), url(/npca-web/img/top-2.jpg)
 
 .title
   width 800px
