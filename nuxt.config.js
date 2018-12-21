@@ -57,6 +57,6 @@ module.exports = {
   },
 
   router: {
-    base: 'https://mkobayashime.gitlab.io/npca-web/'
+    base: 'npca-web/'
   }
 }
