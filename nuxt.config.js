@@ -57,6 +57,6 @@ module.exports = {
   },
 
   router: {
-    base: '/'
+    base: ''
   }
 }
