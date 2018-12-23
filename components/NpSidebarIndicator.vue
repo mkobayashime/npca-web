@@ -20,7 +20,6 @@ export default {
   justify-content center
   margin 0
   color: hsl(0, 0%, 90%)
-  cursor pointer
   &:before
     content ''
     display block

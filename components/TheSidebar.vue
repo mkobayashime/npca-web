@@ -3,15 +3,15 @@
     .theSidebarTop
       nuxt-link(to="/")
         img.logotype-jp.sidebarAnim(src="/logotype-jp.svg" width="250px")
-      nuxt-link(to="/activities" tag="div")
+      nuxt-link(to="/activities")
         np-sidebar-indicator
           p.sidebarAnim(slot="label") Activities
           p.sidebarAnim(slot="labelJp") 活動・実績
-      nuxt-link(to="/works" tag="div")
+      nuxt-link(to="/works")
         np-sidebar-indicator
           p.sidebarAnim(slot="label") Works
           p.sidebarAnim(slot="labelJp") 作品
-      nuxt-link(to="/contact" tag="div")
+      nuxt-link(to="/contact")
         np-sidebar-indicator
           p.sidebarAnim(slot="label") Contact
           p.sidebarAnim(slot="labelJp") 連絡先
