@@ -1,3 +1,79 @@
-/*Import webfonts from Goolge Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+/* Import webfonts from Goolge Fonts */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Floating Animation */
+.fi[data-emergence=visible] {
+  opacity: 1;
+  transition: all 700ms;
+}
+.fi[data-emergence=hidden] {
+  opacity: 0;
+}
+.fi-up[data-emergence=hidden] {
+  transform: translateY(70px);
+}
+.fi-down[data-emergence=hidden] {
+  transform: translateY(-70px)
+}
+
+
+/* Reset default styles */
+*,
+:after,
+:before {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-text-size-adjust: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::selection {
+  background: rgba(0,0,0,0.5) /* Safari */;
+  color: #fff;
+}
+::-moz-selection {
+  background: rgba(0,0,0,0.5) /* Firefox */;
+  color: #fff;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  border: 0px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+input,button, select, textarea {
+  font-family: inherit;
+}
+input[type='text'], input[type='password'], select {
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  background: transparent;
+}
+select::-ms-expand { /* IEでselectの矢印を消す */
+  display: none;
+}
+button {
+  border: none;
+  background: none;
+}
+.tbc {
+  display: table-cell;
+  vertical-align: middle;
+}
+.r {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
