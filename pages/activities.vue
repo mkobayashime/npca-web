@@ -2,7 +2,7 @@
   .nuxtContainer
     .title
       h1
-        .line.line1
+        .line
           span A
           span c
           span t
@@ -22,38 +22,25 @@
 <script>
 import anime from 'animejs'
 import emergence from 'emergence.js'
-import NpSeparator from '~/components/NpSeparator.vue'
-import NpSection from '~/components/NpSection.vue'
 import NpSectionActivities from '~/components/NpSectionActivities.vue'
 import sections from '~/static/activities.json'
 export default {
-  components: { NpSeparator, NpSection, NpSectionActivities },
+  components: { NpSectionActivities },
   data() {
     return {
       sections: sections
     }
   },
   mounted() {
-    const h1 = document.querySelector('.title h1')
-    h1.style.opacity = 1
-    ;(this.anime = anime.timeline({}).add({
-      targets: '.line1 span',
+    this.anime = anime({
+      targets: '.line span',
       translateY: ['1.2em', 0],
       duration: 500,
       delay: function(el, i) {
         return 50 * i + 500
       },
       easing: 'easeOutQuart'
-    })),
-      (this.anime = anime.timeline({}).add({
-        targets: '.line2 span',
-        translateY: ['1.2em', 0],
-        duration: 500,
-        delay: function(el, i) {
-          return 50 * i + 700
-        },
-        easing: 'easeOutQuart'
-      }))
+    })
     emergence.init({
       reset: false,
       offsetBottom: 100
@@ -64,7 +51,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .title
   width 800px
   margin 80px auto 0
@@ -72,7 +59,6 @@ export default {
   h1
     font-size 100px
     font-weight 700
-    opacity 0
     .line
       overflow hidden
       margin 0
