@@ -69,7 +69,7 @@ export default {
     }
   },
   mounted() {
-    ;(this.anime = anime({
+    this.anime1 = anime({
       targets: '.line1 span',
       translateY: ['1.2em', 0],
       duration: 500,
@@ -77,16 +77,16 @@ export default {
         return 50 * i + 500
       },
       easing: 'easeOutQuart'
-    })),
-      (this.anime = anime({
-        targets: '.line2 span',
-        translateY: ['1.2em', 0],
-        duration: 500,
-        delay: function(el, i) {
-          return 50 * i + 700
-        },
-        easing: 'easeOutQuart'
-      }))
+    })
+    this.anime2 = anime({
+      targets: '.line2 span',
+      translateY: ['1.2em', 0],
+      duration: 500,
+      delay: function(el, i) {
+        return 50 * i + 700
+      },
+      easing: 'easeOutQuart'
+    })
     emergence.init({
       reset: false,
       offsetBottom: 100
