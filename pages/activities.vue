@@ -2,7 +2,7 @@
   .nuxtContainer
     .title
       h1
-        np-page-title(:text="title" v-for="title in title")
+        np-page-title(:text="title" :key="index" v-for="title in title")
       h2.fi.fi-up(data-emergence="hidden") 活動・実績
     section(v-for="section in sections")
       np-separator
