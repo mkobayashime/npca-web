@@ -1,27 +1,27 @@
 <template lang="pug">
   .npSectionContainer
-    h2.fi.fi-up(data-emergence="hidden") {{section.title}}
+    h2
+      np-section-title(:text="text" :key="index" v-for="text in section.title")
     .textContainer(v-for="p in section.p")
       p.fi.fi-up(data-emergence="hidden") {{p}}
 </template>
 
 <script>
 import emergence from 'emergence.js'
+import NpSectionTitle from '~/components/NpSectionTitle.vue'
 export default {
   name: 'NpSection',
+  components: { NpSectionTitle },
   props: {
     section: {
       type: Object,
       default: function() {
         return {
-          title: 'This is Title',
+          title: ['This is Title'],
           p: ['This is text']
         }
       }
     }
-  },
-  data() {
-    return {}
   }
 }
 </script>
@@ -29,7 +29,6 @@ export default {
 <style lang="stylus" scoped>
 h2
   margin 100px 0 50px
-  font-size 40px
 p
   margin 20px 0
   font-size 16px

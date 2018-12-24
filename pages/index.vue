@@ -2,9 +2,9 @@
   .nuxtContainer
     .title
       h1
-        np-page-title(:text="title" v-for="title in title")
+        np-page-title(:text="title" :key="index" v-for="title in title")
       h2.fi.fi-up(data-emergence="hidden") 灘校パソコン研究部へようこそ!
-    section(v-for="section in sections")
+    section(:key="index" v-for="section in sections")
       np-separator
       np-section(:section="section")
     .footerSpacer
@@ -23,7 +23,7 @@ export default {
       title: ['Hello,', 'World!'],
       sections: [
         {
-          title: 'NPCAとは?',
+          title: ['NPCAとは?'],
           p: [
             'NPCA: 灘校パソコン研究部は、灘中学校・高等学校の部活動の1つです',
             '普段から幅広く活動しています',
@@ -31,7 +31,7 @@ export default {
           ]
         },
         {
-          title: 'NPCAの由来',
+          title: ['NPCAの由来'],
           p: [
             "Nada Personal Computer users' Association",
             '直訳すると「灘校パソコン使用者の会」の頭文字を取った愛称です',
@@ -40,14 +40,14 @@ export default {
           ]
         },
         {
-          title: 'Contact',
+          title: ['Contact'],
           p: [
             'お問い合わせ・取材などのご連絡はこちらのメールアドレスまでお願い致します',
             'webmaster@npca.jp'
           ]
         },
         {
-          title: '入部を希望する皆さんへ',
+          title: ['入部を希望する皆さんへ'],
           p: [
             'NPCAは常時入部を受け付けています',
             '東館2階 視聴覚室の向かいの部室まで、気軽にお越しください!',

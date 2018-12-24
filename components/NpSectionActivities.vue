@@ -1,22 +1,30 @@
 <template lang="pug">
   .npSectionContainer
-    h2.fi.fi-up(data-emergence="hidden") {{section.year}}
+    h2
+      np-section-title(:text="text" :key="index" v-for="text in section.year")
     np-activitie-line(:ps="section.ps")
 </template>
 
 <script>
 import emergence from 'emergence.js'
 import NpActivitieLine from '~/components/NpActivitieLine.vue'
-import NpButtonS from '~/components/NpButtonS.vue'
+import NpSectionTitle from '~/components/NpSectionTitle.vue'
 export default {
   name: 'NpSection',
-  components: { NpActivitieLine, NpButtonS },
+  components: { NpActivitieLine, NpSectionTitle },
   props: {
     section: {
       type: Object,
       default: function() {
         return {
-          yaer: '20xx'
+          yaer: ['20xx'],
+          ps: [
+            {
+              date: 'xx.xx - xx.xx',
+              text: 'text',
+              links: [['label', 'url']]
+            }
+          ]
         }
       }
     }
