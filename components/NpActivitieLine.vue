@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .line
   display flex
   margin 30px 0

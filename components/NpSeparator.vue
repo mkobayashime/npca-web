@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .separator
   margin-top 100px
   width 50px

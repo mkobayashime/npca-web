@@ -18,7 +18,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .buttonContainerS
   display inline-block
   height 25px
