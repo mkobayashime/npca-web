@@ -23,7 +23,7 @@ export default {
   },
   mounted() {
     this.anime = anime({
-      targets: '.line span',
+      targets: '.npPageTitle span',
       translateY: ['1.2em', 0],
       duration: 500,
       delay: function(el, i) {
