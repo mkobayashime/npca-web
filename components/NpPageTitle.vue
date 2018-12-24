@@ -32,7 +32,7 @@ export default {
       translateY: ['1.2em', 0],
       duration: 500,
       delay: function(el, i) {
-        return 50 * i + 500
+        return 50 * i + 200
       },
       easing: 'easeOutQuart'
     })
