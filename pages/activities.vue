@@ -2,17 +2,7 @@
   .nuxtContainer
     .title
       h1
-        .line
-          span A
-          span c
-          span t
-          span i
-          span v
-          span i
-          span t
-          span i
-          span e
-          span s
+        np-page-title(:text="title" v-for="title in title")
       h2.fi.fi-up(data-emergence="hidden") 活動・実績
     section(v-for="section in sections")
       np-section-activities(:section="section")
@@ -20,27 +10,19 @@
 </template>
 
 <script>
-import anime from 'animejs'
 import emergence from 'emergence.js'
+import NpPageTitle from '~/components/NpPageTitle.vue'
 import NpSectionActivities from '~/components/NpSectionActivities.vue'
 import sections from '~/static/activities.json'
 export default {
-  components: { NpSectionActivities },
+  components: { NpPageTitle, NpSectionActivities },
   data() {
     return {
+      title: ['Activities'],
       sections: sections
     }
   },
   mounted() {
-    this.anime = anime({
-      targets: '.line span',
-      translateY: ['1.2em', 0],
-      duration: 500,
-      delay: function(el, i) {
-        return 50 * i + 500
-      },
-      easing: 'easeOutQuart'
-    })
     emergence.init({
       reset: false,
       offsetBottom: 100

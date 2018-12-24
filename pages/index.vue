@@ -2,20 +2,7 @@
   .nuxtContainer
     .title
       h1
-        .line.line1
-          span H
-          span e
-          span l
-          span l
-          span o
-          span ,
-        .line.line2
-          span W
-          span o
-          span r
-          span l
-          span d
-          span !
+        np-page-title(:text="title" v-for="title in title")
       h2.fi.fi-up(data-emergence="hidden") 灘校パソコン研究部へようこそ!
     section(v-for="section in sections")
       np-section(:section="section")
@@ -23,15 +10,16 @@
 </template>
 
 <script>
-import anime from 'animejs'
 import emergence from 'emergence.js'
+import NpPageTitle from '~/components/NpPageTitle.vue'
 import NpSeparator from '~/components/NpSeparator.vue'
 import NpSection from '~/components/NpSection.vue'
 import sections from '~/static/activities.json'
 export default {
-  components: { NpSeparator, NpSection },
+  components: { NpPageTitle, NpSeparator, NpSection },
   data() {
     return {
+      title: ['Hello,', 'World!'],
       sections: [
         {
           title: 'NPCAとは?',
@@ -69,24 +57,6 @@ export default {
     }
   },
   mounted() {
-    this.anime1 = anime({
-      targets: '.line1 span',
-      translateY: ['1.2em', 0],
-      duration: 500,
-      delay: function(el, i) {
-        return 50 * i + 500
-      },
-      easing: 'easeOutQuart'
-    })
-    this.anime2 = anime({
-      targets: '.line2 span',
-      translateY: ['1.2em', 0],
-      duration: 500,
-      delay: function(el, i) {
-        return 50 * i + 700
-      },
-      easing: 'easeOutQuart'
-    })
     emergence.init({
       reset: false,
       offsetBottom: 100
@@ -101,16 +71,6 @@ export default {
 .title
   width 800px
   margin 80px auto 0
-  color #000
-  h1
-    font-size 100px
-    font-weight 700
-    .line
-      overflow hidden
-      margin 0
-      span
-        display inline-block
-        margin-right 15px
   h2
     margin-top 30px
     font-size 30px
