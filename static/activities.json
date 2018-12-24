@@ -3,18 +3,23 @@
     "year": "2018",
     "ps": [
       {
+        "date": "11.25",
+        "text": "部内鍋パーティーを開催"
+      },
+      {
+        "date": "8.26 - 8.30",
+        "text": "夏合宿を開催"
+      },
+      {
+        "date": "5.25",
+        "text": "新入生歓迎会を開催"
+      },
+      {
         "date": "5.2 - 5.3",
         "text": "第72回灘校文化祭",
         "links": [
-          [
-            "特設ページ",
-            "2018",
-            true
-          ],
-          [
-            "文化祭公式サイト",
-            "http://fest.nada-hs.jp"
-          ]
+          ["特設ページ", "2018", true],
+          ["文化祭公式サイト", "http://fest.nada-hs.jp"]
         ]
       },
       {
@@ -31,10 +36,7 @@
         "date": "2.10 - 2.11",
         "text": "日本情報オリンピック本選に4人が参加",
         "links": [
-          [
-            "大会公式サイト",
-            "https://www.ioi-jp.org/joi/2017/index.html"
-          ]
+          ["大会公式サイト", "https://www.ioi-jp.org/joi/2017/index.html"]
         ]
       }
     ]
@@ -46,10 +48,7 @@
         "date": "11.3 - 11.4",
         "text": "パソコン甲子園 プログラミング部門で\"FiveAma\"チームが7位",
         "links": [
-          [
-            "大会公式サイト",
-            "http://web-ext.u-aizu.ac.jp/pc-concours/"
-          ],
+          ["大会公式サイト", "http://web-ext.u-aizu.ac.jp/pc-concours/"],
           [
             "本戦結果詳細",
             "http://web-ext.u-aizu.ac.jp/pc-concours/2017/final/f_finalresult.html"
@@ -57,15 +56,17 @@
         ]
       },
       {
+        "date": "8.11 - 8.13",
+        "text": "夏合宿を開催"
+      },
+      {
         "date": "5.2 - 5.3",
         "text": "第71回灘校文化祭",
-        "links": [
-          [
-            "特設ページ",
-            "2017",
-            true
-          ]
-        ]
+        "links": [["特設ページ", "2017", true]]
+      },
+      {
+        "date": "4.14",
+        "text": "夙川河川敷で花見"
       }
     ]
   },
@@ -76,15 +77,16 @@
         "date": "11.12 - 11.13",
         "text": "パソコン甲子園 プログラミング部門で「大物ユーチューバー」チームが審査員特別賞",
         "links": [
-          [
-            "大会公式サイト",
-            "http://web-ext.u-aizu.ac.jp/pc-concours/"
-          ],
+          ["大会公式サイト", "http://web-ext.u-aizu.ac.jp/pc-concours/"],
           [
             "本戦結果詳細",
             "http://web-ext.u-aizu.ac.jp/pc-concours/2016/final/f_finalresult.html"
           ]
         ]
+      },
+      {
+        "date": "8.23 - 8.25",
+        "text": "夏合宿を開催"
       },
       {
         "date": "8.9 - 8.13",
@@ -99,22 +101,13 @@
       {
         "date": "5.2 - 5.3",
         "text": "第70回灘校文化祭",
-        "links": [
-          [
-            "特設ページ",
-            "2016",
-            true
-          ]
-        ]
+        "links": [["特設ページ", "2016", true]]
       },
       {
         "date": "2.13 - 2.14",
         "text": "日本情報オリンピック本選で3人が優秀賞、うち1人が地区優秀賞を受賞",
         "links": [
-          [
-            "成績優秀者",
-            "https://www.ioi-jp.org/joi/2015/2016-medalists.html"
-          ]
+          ["成績優秀者", "https://www.ioi-jp.org/joi/2015/2016-medalists.html"]
         ]
       }
     ]
@@ -139,23 +132,16 @@
       {
         "date": "11.7",
         "text": "関西オープンフォーラム 2015にて展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://k-of.jp/2015/"
-          ]
-        ]
+        "links": [["公式サイト", "https://k-of.jp/2015/"]]
+      },
+      {
+        "date": "8.26 - 8.28",
+        "text": "夏合宿を開催"
       },
       {
         "date": "5.2 - 5.3",
         "text": "第69回灘校文化祭",
-        "links": [
-          [
-            "特設ページ",
-            "2015",
-            true
-          ]
-        ]
+        "links": [["特設ページ", "2015", true]]
       },
       {
         "date": "4.2",
@@ -165,10 +151,7 @@
         "date": "2.7 - 2.8",
         "text": "日本情報オリンピック本選で部員4人が優秀賞受賞",
         "links": [
-          [
-            "成績優秀者",
-            "https://www.ioi-jp.org/joi/2014/2015-medalists.html"
-          ]
+          ["成績優秀者", "https://www.ioi-jp.org/joi/2014/2015-medalists.html"]
         ]
       }
     ]
@@ -179,35 +162,23 @@
       {
         "date": "11.8",
         "text": "関西オープンフォーラム 2014にて展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://k-of.jp/2014/"
-          ]
-        ]
+        "links": [["公式サイト", "https://k-of.jp/2014/"]]
+      },
+      {
+        "date": "8.18 - 8.20",
+        "text": "夏合宿を開催"
       },
       {
         "date": "8.1 - 8.2",
         "text": "オープンソースカンファレンス京都 2014にて講演、展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://www.ospn.jp/osc2014-kyoto/"
-          ]
-        ]
+        "links": [["公式サイト", "https://www.ospn.jp/osc2014-kyoto/"]]
       },
       {
         "date": "7.13 - 7.20",
         "text": "第26回国際情報オリンピックに部員1人が参加、銀メダル獲得",
         "links": [
-          [
-            "大会公式サイト",
-            "https://www.ioi-jp.org/ioi/2014/index.html"
-          ],
-          [
-            "日本代表選手",
-            "https://www.ioi-jp.org/ioi/2014/contestants.html"
-          ]
+          ["大会公式サイト", "https://www.ioi-jp.org/ioi/2014/index.html"],
+          ["日本代表選手", "https://www.ioi-jp.org/ioi/2014/contestants.html"]
         ]
       },
       {
@@ -227,13 +198,7 @@
       {
         "date": "5.2 - 5.3",
         "text": "第68回灘校文化祭",
-        "links": [
-          [
-            "特設ページ",
-            "2014",
-            true
-          ]
-        ]
+        "links": [["特設ページ", "2014", true]]
       },
       {
         "date": "4.7",
@@ -257,10 +222,7 @@
         "date": "2.8 - 2.9",
         "text": "日本情報オリンピック本選で1人が銀賞、4人が優秀賞受賞",
         "links": [
-          [
-            "成績優秀者",
-            "https://www.ioi-jp.org/joi/2013/2014-medalists.html"
-          ]
+          ["成績優秀者", "https://www.ioi-jp.org/joi/2013/2014-medalists.html"]
         ]
       }
     ]
@@ -305,35 +267,21 @@
       {
         "date": "11.9",
         "text": "関西オープンフォーラム 2013にて展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://k-of.jp/2013/"
-          ]
-        ]
+        "links": [["公式サイト", "https://k-of.jp/2013/"]]
       },
       {
         "date": "10.20",
         "text": "SECCON 四国大会にてチームEpsilonDeltaが優勝",
         "links": [
-          [
-            "記事",
-            "http://2013.seccon.jp/blog/2013/10/seccon-kagawa.html"
-          ]
+          ["記事", "http://2013.seccon.jp/blog/2013/10/seccon-kagawa.html"]
         ]
       },
       {
         "date": "10.6",
         "text": "第34回U-20プログラミング・コンテストにて部員1人が経済産業大臣賞を受賞",
         "links": [
-          [
-            "公式サイト",
-            "https://u22procon.com/2013/"
-          ],
-          [
-            "受賞作品",
-            "https://u22procon.com/2013/w_a1.php"
-          ]
+          ["公式サイト", "https://u22procon.com/2013/"],
+          ["受賞作品", "https://u22procon.com/2013/w_a1.php"]
         ]
       },
       {
@@ -344,15 +292,16 @@
         "date": "8.22 - 8.23",
         "text": "SECCON2013にて部員1人が4位入賞",
         "links": [
-          [
-            "公式サイト",
-            "http://2013.seccon.jp/index.html"
-          ],
+          ["公式サイト", "http://2013.seccon.jp/index.html"],
           [
             "試合結果詳細",
             "http://2013.seccon.jp/blog/2013/08/secconcedec-challenge-1.html"
           ]
         ]
+      },
+      {
+        "date": "8.21 - 8.23",
+        "text": "夏合宿を開催"
       },
       {
         "date": "8.13 - 8.17",
@@ -367,37 +316,20 @@
       {
         "date": "8.3",
         "text": "オープンソースカンファレンス京都 2013にて講演、展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://www.ospn.jp/osc2013-kyoto/"
-          ]
-        ]
+        "links": [["公式サイト", "https://www.ospn.jp/osc2013-kyoto/"]]
       },
       {
         "date": "5.11",
         "text": "第7回アジア太平洋情報オリンピックにて部員1人が銀メダル獲得",
         "links": [
-          [
-            "公式サイト",
-            "https://www.ioi-jp.org/apio.php"
-          ],
-          [
-            "成績詳細",
-            "https://www.ioi-jp.org/apio/2013/2013-medalists.html"
-          ]
+          ["公式サイト", "https://www.ioi-jp.org/apio.php"],
+          ["成績詳細", "https://www.ioi-jp.org/apio/2013/2013-medalists.html"]
         ]
       },
       {
         "date": "5.2 - 5.3",
         "text": "第67回灘校文化祭",
-        "links": [
-          [
-            "特設ページ",
-            "2013",
-            true
-          ]
-        ]
+        "links": [["特設ページ", "2013", true]]
       },
       {
         "date": "4.1",
@@ -411,10 +343,7 @@
         "date": "2.10",
         "text": "日本情報オリンピック本選にて部員1人が銀メダル獲得、1人が地区優秀賞を獲得",
         "links": [
-          [
-            "成績優秀者",
-            "https://www.ioi-jp.org/joi/2012/2013-medalists.html"
-          ],
+          ["成績優秀者", "https://www.ioi-jp.org/joi/2012/2013-medalists.html"],
           [
             "地区別成績優秀者",
             "https://www.ioi-jp.org/joi/2012/2013-block_tops.html"
@@ -438,24 +367,15 @@
         "date": "12.21",
         "text": "部員1人が平成24年度秋季応用情報技術者試験に合格しました",
         "links": [
-          [
-            "公式サイト",
-            "https://www.jitec.ipa.go.jp/1_11seido/ap.html"
-          ]
+          ["公式サイト", "https://www.jitec.ipa.go.jp/1_11seido/ap.html"]
         ]
       },
       {
         "date": "12.16",
         "text": "高校生科学技術チャレンジ2012にて部員1人が文部科学大臣賞と富士通賞を受賞",
         "links": [
-          [
-            "公式サイト",
-            "http://www.asahi.com/shimbun/jsec/jsec2012/"
-          ],
-          [
-            "受賞者",
-            "http://www.asahi.com/shimbun/jsec/jsec2012/winner.html"
-          ]
+          ["公式サイト", "http://www.asahi.com/shimbun/jsec/jsec2012/"],
+          ["受賞者", "http://www.asahi.com/shimbun/jsec/jsec2012/winner.html"]
         ]
       },
       {
@@ -466,31 +386,18 @@
         "date": "11.24",
         "text": "EPOCH@まつやま2012にてチームpyaaaaaが優勝",
         "links": [
-          [
-            "公式サイト",
-            "http://epoch.cs.ehime-u.ac.jp/epoch/index.html"
-          ]
+          ["公式サイト", "http://epoch.cs.ehime-u.ac.jp/epoch/index.html"]
         ]
       },
       {
         "date": "11.10",
         "text": "関西オープンソース 2012にて展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://2012.k-of.jp/"
-          ]
-        ]
+        "links": [["公式サイト", "https://2012.k-of.jp/"]]
       },
       {
         "date": "11.3 - 11.4",
         "text": "SECCON 奈良大会（関西地区）CTF／ハッカソンにてチームEpsilonDeltaが優勝",
-        "links": [
-          [
-            "公式サイト",
-            "http://2012.seccon.jp/p/201211nara.html"
-          ]
-        ]
+        "links": [["公式サイト", "http://2012.seccon.jp/p/201211nara.html"]]
       },
       {
         "date": "10.20",
@@ -510,20 +417,14 @@
         "date": "9",
         "text": "EPOCH@まつやま2012に2チーム(pyaaaaa, EPOCH)が予選突破",
         "links": [
-          [
-            "公式サイト",
-            "http://epoch.cs.ehime-u.ac.jp/epoch/index.html"
-          ]
+          ["公式サイト", "http://epoch.cs.ehime-u.ac.jp/epoch/index.html"]
         ]
       },
       {
         "date": "8.25 - 8.29",
         "text": "情報オリンピック 夏季セミナーに4人が参加",
         "links": [
-          [
-            "公式サイト",
-            "https://www.ioi-jp.org/seminar/2012/summer-semi.html"
-          ]
+          ["公式サイト", "https://www.ioi-jp.org/seminar/2012/summer-semi.html"]
         ]
       },
       {
@@ -542,17 +443,12 @@
       },
       {
         "date": "8.9 - 8.11",
-        "text": "部内夏合宿"
+        "text": "夏合宿を開催"
       },
       {
         "date": "8.3 - 8.4",
         "text": "オープンソースカンファレンス京都 2012にて講演、展示",
-        "links": [
-          [
-            "公式サイト",
-            "http://www.ospn.jp/osc2012-kyoto/"
-          ]
-        ]
+        "links": [["公式サイト", "http://www.ospn.jp/osc2012-kyoto/"]]
       },
       {
         "date": "7",
@@ -561,12 +457,7 @@
       {
         "date": "5.12",
         "text": "アジア太平洋情報オリンピックに5人が出場し、うち1人が銅メダルを獲得",
-        "links": [
-          [
-            "公式サイト",
-            "https://www.ioi-jp.org/apio2012/"
-          ]
-        ]
+        "links": [["公式サイト", "https://www.ioi-jp.org/apio2012/"]]
       },
       {
         "date": "5.2 - 5.3",
@@ -580,10 +471,7 @@
         "date": "3.24",
         "text": "Android Bazaar and Conference 2012 Springにてスペシャリストトラックで講演",
         "links": [
-          [
-            "公式サイト",
-            "http://www.android-group.jp/conference/abc2012s/"
-          ]
+          ["公式サイト", "http://www.android-group.jp/conference/abc2012s/"]
         ]
       },
       {
@@ -616,12 +504,7 @@
       {
         "date": "11.11 - 11.12",
         "text": "関西オープンソース 2011にて講演、展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://k-of.jp/2011/"
-          ]
-        ]
+        "links": [["公式サイト", "https://k-of.jp/2011/"]]
       },
       {
         "date": "11.1",
@@ -637,30 +520,25 @@
         "date": "10",
         "text": "部員1人が平成23年度秋季ネットワークスペシャリスト試験に合格",
         "links": [
-          [
-            "公式サイト",
-            "https://www.jitec.ipa.go.jp/1_11seido/nw.html"
-          ]
+          ["公式サイト", "https://www.jitec.ipa.go.jp/1_11seido/nw.html"]
         ]
+      },
+      {
+        "date": "8.25 - 8.26",
+        "text": "夏合宿を開催"
       },
       {
         "date": "6",
         "text": "部員1人が平成23年度特別セキュリティスペシャリスト試験に最年少記録で合格",
         "links": [
-          [
-            "公式サイト",
-            "https://www.jitec.ipa.go.jp/1_11seido/sc.html"
-          ]
+          ["公式サイト", "https://www.jitec.ipa.go.jp/1_11seido/sc.html"]
         ]
       },
       {
         "date": "6",
         "text": "部員1人が平成23年度特別応用情報技術者試験に合格",
         "links": [
-          [
-            "公式サイト",
-            "https://www.jitec.ipa.go.jp/1_11seido/ap.html"
-          ]
+          ["公式サイト", "https://www.jitec.ipa.go.jp/1_11seido/ap.html"]
         ]
       },
       {
@@ -671,10 +549,7 @@
         "date": "9",
         "text": "第5回EPOCH@まつやまに1チーム参加",
         "links": [
-          [
-            "公式サイト",
-            "http://epoch.cs.ehime-u.ac.jp/epoch/index.html"
-          ]
+          ["公式サイト", "http://epoch.cs.ehime-u.ac.jp/epoch/index.html"]
         ]
       },
       {
@@ -693,10 +568,7 @@
         "date": "8.10 - 8.14",
         "text": "セキュリティ＆プログラミングキャンプ 2011に2人が参加",
         "links": [
-          [
-            "公式サイト",
-            "https://www.ipa.go.jp/jinzai/renkei/spcamp2011/"
-          ]
+          ["公式サイト", "https://www.ipa.go.jp/jinzai/renkei/spcamp2011/"]
         ]
       },
       {
@@ -706,22 +578,12 @@
       {
         "date": "7.17",
         "text": "Android Bazaar and Conference 2011 Summerにて学生トラックとアカデミートラックにて講演",
-        "links": [
-          [
-            "公式サイト",
-            "http://www.android-group.jp/abc2011s/"
-          ]
-        ]
+        "links": [["公式サイト", "http://www.android-group.jp/abc2011s/"]]
       },
       {
         "date": "7.15 - 7.16",
         "text": "オープンソースカンファレンス京都 2011にて展示、講演",
-        "links": [
-          [
-            "公式サイト",
-            "http://www.ospn.jp/osc2011-kyoto/"
-          ]
-        ]
+        "links": [["公式サイト", "http://www.ospn.jp/osc2011-kyoto/"]]
       },
       {
         "date": "5.14",
@@ -738,12 +600,7 @@
       {
         "date": "4.16",
         "text": "オープンソースカンファレンス神戸 2011にて講演",
-        "links": [
-          [
-            "公式サイト",
-            "http://www.ospn.jp/osc2011-kobe/"
-          ]
-        ]
+        "links": [["公式サイト", "http://www.ospn.jp/osc2011-kobe/"]]
       },
       {
         "date": "3.26",
@@ -752,12 +609,7 @@
       {
         "date": "2.17",
         "text": "Developer Summit 2011にて講演",
-        "links": [
-          [
-            "公式サイト",
-            "https://codezine.jp/devsumi/2011/"
-          ]
-        ]
+        "links": [["公式サイト", "https://codezine.jp/devsumi/2011/"]]
       },
       {
         "date": "2.12",
@@ -766,12 +618,7 @@
       {
         "date": "1.9",
         "text": "Android Bazaar and Conference 2011 Winterにて講演",
-        "links": [
-          [
-            "公式サイト",
-            "http://www.android-group.jp/abc2011w/"
-          ]
-        ]
+        "links": [["公式サイト", "http://www.android-group.jp/abc2011w/"]]
       }
     ]
   },
@@ -781,32 +628,19 @@
       {
         "date": "11.5 - 11.6",
         "text": "関西オープンソース 2010にて講演、展示",
-        "links": [
-          [
-            "公式サイト",
-            "https://k-of.jp/2010/"
-          ]
-        ]
+        "links": [["公式サイト", "https://k-of.jp/2010/"]]
       },
       {
         "date": "10",
         "text": "部員1人が平成22年度秋季基本情報技術者試験に合格",
         "links": [
-          [
-            "公式サイト",
-            "https://www.jitec.ipa.go.jp/1_11seido/fe.html"
-          ]
+          ["公式サイト", "https://www.jitec.ipa.go.jp/1_11seido/fe.html"]
         ]
       },
       {
         "date": "8.28",
         "text": "CSS Nite in Osaka, Vol.23にて講演",
-        "links": [
-          [
-            "公式サイト",
-            "http://osaka.cssnite.jp/vol23/"
-          ]
-        ]
+        "links": [["公式サイト", "http://osaka.cssnite.jp/vol23/"]]
       },
       {
         "date": "8.23 - 8.27",
@@ -815,32 +649,19 @@
       {
         "date": "8.22",
         "text": "CSS Nite in Osaka, Vol.22にて講演",
-        "links": [
-          [
-            "公式サイト",
-            "http://osaka.cssnite.jp/vol22/"
-          ]
-        ]
+        "links": [["公式サイト", "http://osaka.cssnite.jp/vol22/"]]
       },
       {
         "date": "8.12 - 8.16",
         "text": "セキュリティ&プログラミングキャンプ 2010に部員2人が参加",
         "links": [
-          [
-            "公式サイト",
-            "https://www.ipa.go.jp/jinzai/renkei/spcamp2010/"
-          ]
+          ["公式サイト", "https://www.ipa.go.jp/jinzai/renkei/spcamp2010/"]
         ]
       },
       {
         "date": "7.9 - 7.10",
         "text": "オープンソースカンファレンス2010 京都に参加",
-        "links": [
-          [
-            "公式サイト",
-            "http://www.ospn.jp/osc2010-kyoto/"
-          ]
-        ]
+        "links": [["公式サイト", "http://www.ospn.jp/osc2010-kyoto/"]]
       },
       {
         "date": "6",
