@@ -16,11 +16,6 @@ export default {
       }
     }
   },
-  data() {
-    return {
-      an: 'ABC'
-    }
-  },
   computed: {
     getText: function() {
       return this.text.split('')
