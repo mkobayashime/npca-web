@@ -1,6 +1,5 @@
 <template lang="pug">
   .npSectionContainer
-    np-separator
     h2.fi.fi-up(data-emergence="hidden") {{section.title}}
     .textContainer(v-for="p in section.p")
       p.fi.fi-up(data-emergence="hidden") {{p}}
@@ -8,10 +7,8 @@
 
 <script>
 import emergence from 'emergence.js'
-import NpSeparator from '~/components/NpSeparator.vue'
 export default {
   name: 'NpSection',
-  components: { NpSeparator },
   props: {
     section: {
       type: Object,

@@ -5,6 +5,7 @@
         np-page-title(:text="title" v-for="title in title")
       h2.fi.fi-up(data-emergence="hidden") 灘校パソコン研究部へようこそ!
     section(v-for="section in sections")
+      np-separator
       np-section(:section="section")
     .footerSpacer
 </template>

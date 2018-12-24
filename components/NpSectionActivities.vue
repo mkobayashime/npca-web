@@ -1,6 +1,5 @@
 <template lang="pug">
   .npSectionContainer
-    np-separator
     h2.fi.fi-up(data-emergence="hidden") {{section.year}}
     np-activitie-line(:ps="section.ps")
 </template>
@@ -9,10 +8,9 @@
 import emergence from 'emergence.js'
 import NpActivitieLine from '~/components/NpActivitieLine.vue'
 import NpButtonS from '~/components/NpButtonS.vue'
-import NpSeparator from '~/components/NpSeparator.vue'
 export default {
   name: 'NpSection',
-  components: { NpActivitieLine, NpButtonS, NpSeparator },
+  components: { NpActivitieLine, NpButtonS },
   props: {
     section: {
       type: Object,

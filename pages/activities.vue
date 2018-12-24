@@ -5,6 +5,7 @@
         np-page-title(:text="title" v-for="title in title")
       h2.fi.fi-up(data-emergence="hidden") 活動・実績
     section(v-for="section in sections")
+      np-separator
       np-section-activities(:section="section")
     .footerSpacer
 </template>
@@ -13,9 +14,10 @@
 import emergence from 'emergence.js'
 import NpPageTitle from '~/components/NpPageTitle.vue'
 import NpSectionActivities from '~/components/NpSectionActivities.vue'
+import NpSeparator from '~/components/NpSeparator.vue'
 import sections from '~/static/activities.json'
 export default {
-  components: { NpPageTitle, NpSectionActivities },
+  components: { NpPageTitle, NpSectionActivities, NpSeparator },
   data() {
     return {
       title: ['Activities'],
