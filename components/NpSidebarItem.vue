@@ -1,5 +1,5 @@
 <template lang="pug">
-  .NpSidebarIndicator
+  .NpSidebarItem
     .label
       slot(name="label")
     .labelJp
@@ -8,12 +8,12 @@
 
 <script>
 export default {
-  name: 'NpSidebarIndicator'
+  name: 'NpSidebarItem'
 }
 </script>
 
 <style lang="stylus" scoped>
-.NpSidebarIndicator
+.NpSidebarItem
   display flex
   flex-direction column
   align-items center

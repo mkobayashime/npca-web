@@ -2,17 +2,17 @@
   .theSidebar
     .theSidebarTop
       nuxt-link(to="/")
-        img.logotype-jp.sidebarAnim(src="/logotype-jp.svg" width="250px")
+        img.logotypeJp.sidebarAnim(src="/logotype-jp.svg" width="250px")
       nuxt-link(to="/activities")
-        np-sidebar-indicator
+        np-sidebar-item
           p.sidebarAnim(slot="label") Activities
           p.sidebarAnim(slot="labelJp") 活動・実績
       nuxt-link(to="/works")
-        np-sidebar-indicator
+        np-sidebar-item
           p.sidebarAnim(slot="label") Works
           p.sidebarAnim(slot="labelJp") 作品
       nuxt-link(to="/contact")
-        np-sidebar-indicator
+        np-sidebar-item
           p.sidebarAnim(slot="label") Contact
           p.sidebarAnim(slot="labelJp") 連絡先
     .theSidebarBottom
@@ -21,10 +21,10 @@
 
 <script>
 import anime from 'animejs'
-import NpSidebarIndicator from '~/components/NpSidebarIndicator'
+import NpSidebarItem from '~/components/NpSidebarItem'
 export default {
   name: 'TheSidebar',
-  components: { NpSidebarIndicator },
+  components: { NpSidebarItem },
   mounted() {
     this.anime = anime.timeline({}).add({
       targets: '.sidebarAnim',
@@ -50,7 +50,7 @@ export default {
   flex-direction column
   position fixed
   background-color #000
-  .logotype-jp
+  .logotypeJp
     margin 50px 0 40px
   .theSidebarBottom
     width 100%
