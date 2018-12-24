@@ -1,5 +1,5 @@
 <template lang="pug">
-	.NpPageTitle
+	.npPageTitle
 		.line
 			span(v-for="c in getText") {{c}}
 </template>
@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.NpPageTitle
+.npPageTitle
   width 800px
   color #000
 	.line
@@ -45,7 +45,6 @@ export default {
 		overflow hidden
 		display flex
 		span
-			overflow hidden
 			margin 0 15px 0 0
 			display inline-block
 </style>
