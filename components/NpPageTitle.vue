@@ -47,11 +47,10 @@ export default {
 	.line
 		font-size 100px
 		font-weight 700
-		margin 0
 		overflow hidden
+		display flex
 		span
 			overflow hidden
-			margin 0
+			margin 0 15px 0 0
 			display inline-block
-			margin-right 15px
 </style>
