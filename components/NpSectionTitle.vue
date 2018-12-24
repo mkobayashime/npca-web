@@ -1,5 +1,5 @@
 <template lang="pug">
-	.npSetionTitle(data-emergence="hidden")
+	.npSetionTitle.fi.fi-up(data-emergence="hidden")
 		.line
 			span(v-for="c in getText") {{c}}
 </template>
