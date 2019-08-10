@@ -1,6 +1,8 @@
 # npca-web
 
-> Website of NPCA
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6d2e06ca-b447-4910-b433-45ca2bb8fbb7/deploy-status)](https://app.netlify.com/sites/mkobayashime-npca-web/deploys)
+
+Website of NPCA
 
 ## Build Setup
 
